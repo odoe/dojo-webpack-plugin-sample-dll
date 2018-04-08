@@ -1,0 +1,28 @@
+{
+  "name": "dojo-webpack-plugin-sample",
+  "version": "2.7.1",
+  "devDependencies": {
+    "copy-webpack-plugin": "4.5.1",
+    "css-loader": "0.28.11",
+    "dijit": "1.13.0",
+    "dojo": "1.13.0",
+    "dojo-util": "1.13.0",
+    "dojo-webpack-plugin": "2.7.1",
+    "dojox": "1.13.0",
+    "less": "3.0.1",
+    "less-loader": "4.1.0",
+    "style-loader": "0.20.3",
+    "url-loader": "1.0.1",
+    "webpack": "4.3.0",
+    "webpack-cli": "2.0.13"
+  },
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenNTF/dojo-webpack-plugin-sample.git"
+  },
+  "scripts": {
+    "build": "webpack --env.prod",
+    "dll": "webpack --config dll.webpack.config.js"
+  }
+}
