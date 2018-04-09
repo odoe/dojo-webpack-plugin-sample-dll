@@ -22,7 +22,8 @@
     "url": "git+https://github.com/OpenNTF/dojo-webpack-plugin-sample.git"
   },
   "scripts": {
-    "build": "webpack --env.prod",
-    "dll": "webpack --config dll.webpack.config.js"
+    "build": "npm run dll && npm run prod",
+    "dll": "webpack --config dll.webpack.config.js",
+    "prod": "webpack --env.prod"
   }
 }
